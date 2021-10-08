@@ -1,6 +1,7 @@
 @extends('layouts.plantillabase');
 
 @section('contenido')
+<!-- division de articulos -->
 <a href="articulos/create" class="btn btn-primary">CREAR</a>
 
 <table class="table table-dark table-striped mt-4">
