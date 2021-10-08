@@ -34,6 +34,7 @@ class ArticuloController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
+    /**controlador de articulos */
     public function store(Request $request)
     {
         $articulos = new Articulo();
