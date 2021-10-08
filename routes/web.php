@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+/* hola como estas aqui unsaludo */
 
 Route::resource('articulos', 'App\Http\Controllers\ArticuloController');
 
